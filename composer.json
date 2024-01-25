@@ -1,0 +1,26 @@
+{
+    "name": "maverick-international/indeedly",
+    "description": "Retrieve Job listings from Indeed.",
+    "type": "wordpress-plugin",
+    "license": "GPL v3",
+    "authors": [
+        {
+            "name": "Dan Devine",
+            "email": "dandevine0@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+        "roach-php/core": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Indeedly\\": "inc/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
