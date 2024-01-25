@@ -6,11 +6,9 @@
  * @package Indeedly
  */
 
-
 use Indeedly\Handlers\Form;
 use Indeedly\Handlers\Crawl;
 use Indeedly\Setup\Plugin;
-
 
 if (!defined('ABSPATH')) {
     exit;

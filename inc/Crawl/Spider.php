@@ -43,13 +43,16 @@ class Spider extends BasicSpider
         ]);
     }
 
-
-
+    /**
+     * Saves the file to wp-uploads.
+     *
+     * @param json the content $json
+     * @return void
+     */
     private function save($json)
     {
         require_once(ABSPATH . 'wp-admin/includes/file.php');
         global $wp_filesystem;
-
 
         $upload_dir = wp_upload_dir();
 
