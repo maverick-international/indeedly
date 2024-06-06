@@ -28,9 +28,7 @@ class Plugin
             FROM   {$wpdb->prefix}indeedly
         ";
 
-        $prepared = $wpdb->prepare($sql, array(1));
-
-        $results = $wpdb->get_results($prepared);
+        $results = $wpdb->get_results($sql);
 
         $last = end($results);
 
