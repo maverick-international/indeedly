@@ -36,7 +36,7 @@ if (!defined('INDEEDLY_PLUGIN_PATH')) {
     define('INDEEDLY_PLUGIN_PATH', plugin_dir_path(__FILE__));
 }
 
-define('INDEEDLY_CURRENT_VERSION', '1.0.0');
+define('INDEEDLY_CURRENT_VERSION', '1.1.1');
 
 $admin = new Admin('Indeedly');
 
