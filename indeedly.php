@@ -10,7 +10,7 @@
  * Plugin Name: Indeedly
  * Plugin URI: https://www.mavericklabs.ie
  * Description: Displays Indeed listings in WordPress.
- * Version: 1.1.2
+ * Version: 1.2.0
  * License: GPLv3
  * Text Domain: indeedly
  * Author: Maverick Labs <ops@maverick-intl.com>
@@ -36,7 +36,7 @@ if (!defined('INDEEDLY_PLUGIN_PATH')) {
     define('INDEEDLY_PLUGIN_PATH', plugin_dir_path(__FILE__));
 }
 
-define('INDEEDLY_CURRENT_VERSION', '1.1.2');
+define('INDEEDLY_CURRENT_VERSION', '1.2.0');
 
 $admin = new Admin('Indeedly');
 
