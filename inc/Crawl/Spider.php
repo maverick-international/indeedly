@@ -35,6 +35,8 @@ class Spider extends BasicSpider
                 ->filter('body')
                 ->text();
 
+            $content = strip_tags($content);
+
             $this->save($content);
         }
 
